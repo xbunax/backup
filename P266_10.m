@@ -1,0 +1,1 @@
+Y=dsolve('Dy=-1000*(y-sin(t))+cos(t)','y(0)=1','t');

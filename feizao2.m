@@ -1,0 +1,12 @@
+function dy=feizao2(t,y)
+g=9.8;
+r=0.01;
+gama=32*10^-3;
+x=0.025;
+m=0.08*10^-3;
+k=0.1;
+dy=zeros(2,1);
+dy(1)=y(2);
+f=k*y(2)*((x-r*sin(y(1)))/cos(y(1))^2-r*sin(y(1)));
+%dy(2)=(m*g-2*gama*pi*r*sin(y(1))^2-y(2)^2*((-r*cos(y(1))+2*cos(y(1))*sin(y(1))*(x-r*sin(y(1))))/cos(y(1))^4-r*cos(y(1))))/((x-r*cos(y(1)))/cos(y(1)^2-r*sin(y(1))));
+dy(2)=(g-f-(2*gama*pi*r*sin(y(1))^2)/m-y(2)^2*((-r*cos(y(1))^2+2*x*sin(y(1))-2*r*sin(y(1))^2)/cos(y(1))^3-r*cos(y(1))))/((x-r*sin(y(1)))/cos(y(1))^2-r*sin(y(1)));

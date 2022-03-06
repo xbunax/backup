@@ -1,0 +1,10 @@
+path='/Users/xbunax/Desktop/cupt/20年/10石墨导线/铅笔曲线.xlsx';
+x=xlsread(path,'C56:H56');
+y=xlsread(path,'C57:H57');
+error=xlsread(path,'C59:H59');
+z=[500,1000];
+k=[0,0];
+x=[z,x];
+y=[k,y];
+error=[k,error];
+errorbar(x,y*10^-3,error*10^-3);
