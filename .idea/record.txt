@@ -1,0 +1,5 @@
+name,age,score
+John,20,56
+Lucy,19,83
+Jenny,21,74
+Holly,18,93

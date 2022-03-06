@@ -1,0 +1,10 @@
+from turtle import *
+p=Turtle()
+screensize(1980,1600)
+p.forward(100)
+p.left(90)
+p.forward(100)
+p.left(90)
+p.forward(100)
+p.left(90)
+p.forward(100)
