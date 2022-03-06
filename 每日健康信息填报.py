@@ -9,8 +9,8 @@ driver.get(url)
 username=driver.find_element_by_xpath('//*[@id="username"]')
 passport=driver.find_element_by_xpath('//*[@id="password"]')
 login2=driver.find_element_by_xpath('//*[@id="fm1"]/div[7]/button')
-username.send_keys('1822401002')#学号
-passport.send_keys('Zm117121!')#密码
+username.send_keys('')#学号
+passport.send_keys('')#密码
 login2.click()
 driver.implicitly_wait(5)
 try:
