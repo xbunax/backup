@@ -33,7 +33,7 @@ at.send_keys('36.5')
 driver.find_element_by_xpath('//*[@id="checkbox_jkzk33"]/div/ins').click()
 driver.find_element_by_xpath('//*[@id="select2-select_xrywz-container"]').click()
 driver.find_element_by_xpath('/html/body/span/span/span[2]/ul/li/ul/li[4]').click()#所在地点
-driver.find_element_by_xpath('//*[@id="input_jtdz"]').send_keys('保利广场')#具体地址
+driver.find_element_by_xpath('//*[@id="input_jtdz"]').send_keys('')#具体地址
 driver.find_element_by_xpath('//*[@id="radio_sfyxglz7"]/div/ins').click()
 dianji('//*[@id="radio_sfywc11"]/div/ins')
 dianji('//*[@id="radio_sfygrzjcg15"]/div/ins')
